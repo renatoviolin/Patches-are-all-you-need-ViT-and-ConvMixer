@@ -62,7 +62,11 @@ ConvMixer extract the patches using a CNN layer, in the same way ViT CNN except 
 
 ## References
 [ConvMixer](https://github.com/tmp-iclr/convmixer)
+
 [Patches Are All You Need](https://openreview.net/pdf?id=TVHS5Y4dNvM)
+
 [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/pdf/2010.11929.pdf)
+
 [Mildlyoverfitted repository](https://github.com/jankrepl/mildlyoverfitted/tree/master/github_adventures/vision_transformer)
+
 [Ross Wightman](https://github.com/rwightman/pytorch-image-models)
