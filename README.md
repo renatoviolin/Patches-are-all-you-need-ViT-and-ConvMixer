@@ -11,13 +11,13 @@ Those experiments compare Vision Transformers (ViT) [An Image is Worth 16x16 Wor
 - FP16 precision
 - Train Steps: 5000
 
-All experiments were done using the same set of hyper-parameters and optimizer. Maybe each model architecture may produce better results using specific optimizers, lr and lr scheduler.
+All experiments were done using the same set of hyper-parameters, batch size, loss and optimizer. Maybe each model architecture would produce better results using specific optimizers, lr and lr scheduler.
 
 
 ## Results
 
 - ViT 1 Linear: using a Linear layer to project the patches into 512 embed dim.
-- ViT 2 CNN: using a CNN layer to extract patches and project ito 512 embed dim.
+- ViT 2 CNN: using a CNN layer to extract patches and project into 512 embed dim.
 
 | Model             | Batch Size    | Depth      | Kernel Size | Patch Size | GPU Memory  | Time per epoch
 |--------------     |-------------- |----------- |-------------|----------- |------------ |--------------
