@@ -52,7 +52,7 @@ ConvMixer8* was adjusted to match the model size of the baselines.
 
 It can be seen that Visual Transformers takes more resources, and the resources increase with the reduction of the patch size which implies more patches. Images of 192x192 and patch size 24 implies 64 "tokens", i.e, sequence lenght of 64. With patch size 16, implies 144 "tokens".
 
-ConvMixer extract the patches using a CNN layer, in the same way ViT CNN except ConvMixer do not flatten the tensor, and and then applies d copies of a simple fully-convolutional block consisting of large-kernel depthwise convolution followed by pointwise convolution.
+ConvMixer extract the patches using a CNN layer, in the same way ViT CNN (ConvMixer do not flatten the tensor), and and then applies d copies of a simple fully-convolutional block consisting of large-kernel depthwise convolution followed by pointwise convolution.
 
 
 ## To-Do
