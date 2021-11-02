@@ -29,7 +29,7 @@ All experiments were done using the same set of hyper-parameters, batch size, lo
     
 | Model             | Batch Size    | Depth      | Kernel Size | Patch Size | GPU Memory  | Time per epoch
 |--------------     |-------------- |----------- |-------------|----------- |------------ |--------------
-| ViT 16 Linar      | 250           | 4          | -           | 16         | 6768MiB     |  33 sec
+| ViT 16 Linear      | 250           | 4          | -           | 16         | 6768MiB     |  33 sec
 | ViT 16 CNN        | 250           | 4          | -           | 16         | 6788MiB     |  34 sec
 | ConvMixer 16      | 250           | 4          | 9           | 16         | 3150MiB     |  17 sec
 | ConvMixer 16/8*   | 250           | 8          | 9           | 16         | 4612MiB     |  28 sec
