@@ -33,7 +33,14 @@ All experiments were done using the same set of hyper-parameters and optimizer. 
 | ViT 16 CNN        | 250           | 4          | -           | 16         | 6788MiB     |  34 seconds
 | ConvMixer 16      | 250           | 4          | 9           | 16         | 3150MiB     |  17 seconds
 | ConvMixer 16/8*   | 250           | 8          | 9           | 16         | 4612MiB     |  28 seconds
+
 *Version to match the size of Resnet 18 layers. The memory footprint is around the same, but take more time to train.
+
+
+### Train Loss
+![](results/loss.jpg)
+
+### Train Acc
 
 
 ## Comments
